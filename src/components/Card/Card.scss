@@ -1,0 +1,40 @@
+@import '../../common/sass/variables';
+
+.card {
+  background: $color-white;
+  border-radius: 16px;
+  min-height: 70px;
+  width: 25rem;
+  border: 1px solid #CCCCCC;
+  padding: 20px;
+  font-family: 'Noto Sans KR';
+}
+
+.card-list {
+  background: $color-white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+
+  &__prefix-icon {
+    margin-right: 32px;
+  }
+
+  &__content {
+    width: 100%;
+    padding: var(--sp-4) var(--sp-6);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__actions {
+    width: 64px;
+    border-left: 1px solid $color-grey-l80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
